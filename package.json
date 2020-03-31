@@ -1,0 +1,32 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/validator.cjs.js",
+  "module": "lib/validator.esm.js",
+  "scripts": {
+    "dev": "npx rollup -c -w",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/user-dob/validator.git"
+  },
+  "keywords": [],
+  "author": "s.dobrelya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/user-dob/validator/issues"
+  },
+  "homepage": "https://github.com/user-dob/validator#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^4.0.0",
+    "@types/jest": "^25.1.4",
+    "jest": "^25.2.4",
+    "reflect-metadata": "^0.1.13",
+    "rollup": "^2.3.1",
+    "ts-jest": "^25.3.0",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  }
+}
